@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gellix-SemiBold";
+  src: url(../../assets/fonts/Gellix-SemiBold_R.ttf);
+}
+@font-face {
+  font-family: "Gellix-Regular";
+  src: url(../../assets/fonts/Gellix-Regular_R.ttf);
+}
+
+.textStyle {
+  font-family: "Gellix-SemiBold";
+}
+
+.textStyle-regular {
+  font-family: "Gellix-Regular";
+}
+
+/* Scrollbar styles */
+.my-scrollable-div {
+  overflow-y: scroll;
+}
+
+.my-scrollable-div::-webkit-scrollbar {
+  width: 5px;
+  cursor: pointer;
+}
+
+.my-scrollable-div::-webkit-scrollbar-thumb {
+  background-color: #91bae5;
+  border-radius: 5px;
+}
+
+.my-scrollable-div::-webkit-scrollbar-thumb:hover {
+  background-color: #76a6d8;
+  cursor: pointer;
+}
+
+.my-scrollable-div::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
